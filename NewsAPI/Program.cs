@@ -104,7 +104,7 @@ readonly struct RateLimitTimeStamp : IEquatable<RateLimitTimeStamp>, IComparable
 }
 
 
-file static class Extensions
+ static class Extensions
 {
     public static List<T> WhereList<T>(this IEnumerable<T> list, Func<T, bool> predicate)
     {
